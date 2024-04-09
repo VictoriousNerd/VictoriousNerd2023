@@ -124,35 +124,7 @@ a:hover {
 .nav-link.dropdown-toggle::after {
     display: none;
 }
-@media screen and (min-width: 501px) {
-    .navbar-light .navbar-toggler,
-    .navbar-light .navbar-toggler.collapsed {
-        background-color: #08785C;
-        border-color: #08785C;
-        color:#fff;
-        padding: 10px;
-    }
-    button.navbar-toggler:focus,
-    button.navbar-toggler:hover {
-        outline: none;
-    }
-    button.navbar-toggler.collapsed:focus,
-    button.navbar-toggler.collapsed:hover {
-        outline: none;
-    }
-    .navbar-nav .dropdown-menu {
-        box-shadow: none;
-    }
-    .nav-link.nav-link.dropdown-toggle {
-        padding: 10px;
-    }
-    .nav-item {
-        margin-right: 0;
-        margin-top: 15px;
-    }
-
-}
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .navbar {
         margin-bottom: 1rem;
     }
