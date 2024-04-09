@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VictoriousNerd.com - Victor Morse Portfolio</title>
+    <meta name="Description" content="Boston, MA based web, UI, and graphic design. A blend of design and technical skills with a decade of experience.">
+    <meta property="og:title" content="VictoriousNerd.com" /> 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://victoriousnerd.com" />
+    <meta property="og:image" content="https://victoriousnerd.com/images/Nerdskull.png" />
+    <meta property="og:description" content="Boston, MA based web,UI, and graphic design. A blend of design and techincal skills with a decade of experience."/>
+        
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://victoriousnerd.com/vmd-fav.ico" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56987905-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'UA-56987905-1');
+    </script>    
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/b0ebd7fa53.js" crossorigin="anonymous"></script>
+    <!-- JQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+    <!-- Lazy Load -->
+    <script src="js/lwcLazyLoader.min.js"></script>
+    <script>
+            $('html').lwcLazyLoad({
+            selector: '.lazy-load',
+            dataSelector: 'data-src',
+            dataLoadedSelector: 'data-src',
+            dataCSSSelector: 'data-src-css',
+            onElementLoad: function(el) {
+            // ...code
+            },
+            onElementLoaded: function(el) {
+            // ...code
+            }
+        });
+    </script>
+</head>
+<body>
+    
+<!-- Nav -->   
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="index.html"><img data-src="images/victoriousnerd-skull.svg" alt="VictoriousNerd skull graphic" class="lazy-load"> VictoriousNerd</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarSpecialties" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Specialities</a>
+                <div class="dropdown-menu" aria-labelledby="navbarSpecialties">
+                    <a class="dropdown-item" href="uiuxdesign.html"><i class="fa-solid fa-desktop"></i>&ensp;UI/UX Design</a>
+                    <a class="dropdown-item" href="websites.html"><i class="fa-solid fa-desktop"></i>&ensp;Websites</a>
+                    <a class="dropdown-item" href="landingpages.html"><i class="fa-solid fa-desktop"></i>&ensp;Landing Pages</a>
+                    <a class="dropdown-item" href="emails.html"><i class="fa-solid fa-desktop"></i>&ensp;Emails</a>
+                    <a class="dropdown-item" href="digitalads.html"><i class="fa-solid fa-desktop"></i>&ensp;Digital Ads</a>
+                    <a class="dropdown-item" href="printads.html"><i class="fa-solid fa-print"></i>&ensp;Print Ads</a>
+                    <a class="dropdown-item" href="documentlayout.html"><i class="fa-solid fa-file"></i>&ensp;Document Layout</a>
+                    <a class="dropdown-item" href="iconsillust.html"><i class="fa-solid fa-pencil-alt"></i>&ensp;Icons &amp; Illust.</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarClientsEmployers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clients &amp; Employers</a>
+                <div class="dropdown-menu" aria-labelledby="navbarClientsEmployers">
+                    <a class="dropdown-item" href="statestreet.html"><i class="fa-solid fa-money-bill-wave"></i>&ensp;State Street</a>
+                    <a class="dropdown-item" href="windtalker.html"><i class="fa-solid fa-shield-alt"></i>&ensp;WindTalker Inc.</a>
+                    <a class="dropdown-item" href="ians.html"><i class="fa-solid fa-shield-alt"></i>&ensp;IANS Research</a>
+                    <a class="dropdown-item" href="ampagency.html"><i class="fa-solid fa-newspaper"></i>&ensp;AMP Agency</a>
+                    <a class="dropdown-item" href="mobilefuse.html"><i class="fa-solid fa-newspaper"></i>&ensp;MobileFuse</a>
+                    <a class="dropdown-item" href="jamhub.html"><i class="fa-solid fa-music"></i>&ensp;JamHub</a>
+                    <a class="dropdown-item" href="lateralgroup.html"><i class="fa-solid fa-money-bill-wave"></i>&ensp;LateralGroup</a>
+                    <a class="dropdown-item" href="carbonite.html"><i class="fa-solid fa-cloud"></i>&ensp;Carbontie</a>
+                    <a class="dropdown-item" href="riso.html"><i class="fa-solid fa-print"></i>&ensp;RISO Inc.</a>
+                    <a class="dropdown-item" href="traherdesign.html"><i class="fa-solid fa-pencil-alt"></i>&ensp;Traher Design</a>
+                </div>    
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarAboutMe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Me</a>
+                <div class="dropdown-menu" aria-labelledby="navbarAboutMe">
+                    <a class="dropdown-item" href="hobbiesinterests.html"><i class="fa-solid fa-heart"></i>&ensp;Hobbies &amp; Interests</a>
+                    <a class="dropdown-item" href="https://github.com/VictoriousNerd" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-github"></i>&ensp;GitHub</a>
+                    <a class="dropdown-item" href="https://www.linkedin.com/in/victormorse/" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-linkedin"></i>&ensp;LinkedIn</a>
+                    <a class="dropdown-item" href="https://profile.indeed.com/p/victorm-fe4aaqs" target="_blank" rel="noreferrer noopener"><i class="fa-solid fa-file"></i>&ensp;Indeed Resume</a>
+                    <a class="dropdown-item" href="https://www.instagram.com/victoriousnerd/" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-instagram-square"></i>&ensp;Instagram</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <h1 class="callout">Landing Pages</h1>
+            <hr>
+            <p>These pages were often tied directly with advertising campaigns. Not as robust as websites, yet still needing to adhere to their best practices for design and development.</p>
+            <p>Early in my career the desktop view was the only one we worried about. Now it is imperative that all landing pages adapt to mobile as well. This can add another level of complexity to the project.</p>
+        </div>
+        <div class="col-lg-9">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-ampagency-tab" data-toggle="pill" href="#pills-ampagency" role="tab" aria-controls="pills-ampagency" aria-selected="true">AMP Agency</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-mobilefuse-tab" data-toggle="pill" href="#pills-mobilefuse" role="tab" aria-controls="pills-mobilefuse" aria-selected="false">MobileFuse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-carbonite-tab" data-toggle="pill" href="#pills-carbonite" role="tab" aria-controls="pills-carbonite" aria-selected="false">Carbonite</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-ampagency" role="tabpanel" aria-labelledby="pills-ampagency-tab">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <figure id="farmland-homepage" class="figure">
+                                <a data-toggle="modal" data-target="#modal-1" class="d-block">
+                                    <img data-src="images/landingpages/recipes_homepage_farmland.jpg" class="figure-img img-thumbnail lazy-load" alt="Farmland Homepage">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>Farmland Homepage</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <figure id="farmland-recipe" class="figure">
+                                <a data-toggle="modal" data-target="#modal-2" class="d-block">
+                                    <img data-src="images/landingpages/recipedetail_farmland.jpg" class="figure-img img-thumbnail lazy-load" alt="Farmland Recipe Page">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>Farmland Recipe Page</em></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-mobilefuse" role="tabpanel" aria-labelledby="pills-mobilefuse-tab">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <figure id="uno-offer" class="figure">
+                                <a data-toggle="modal" data-target="#modal-3" class="d-block">
+                                    <img data-src="images/landingpages/uno-landingpage-01.jpg" class="figure-img img-thumbnail lazy-load" alt="UNO Chicago Grill Offer Page" style="margin-top:-10%;">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>UNO Chicago Grill Offer Page</em> | <a href="images/landingpages/uno-page/offer.html" target="_blank" rel="noreferrer noopener">Browser View</a></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-carbonite" role="tabpanel" aria-labelledby="pills-carbonite-tab">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <figure id="disco-page" class="figure">
+                                <a data-toggle="modal" data-target="#modal-4" class="d-block">
+                                    <img data-src="images/landingpages/pandora_lp_disco.jpg" class="figure-img img-thumbnail lazy-load" alt="Pandora Disco Landing Page">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>Pandora Diso Landing Page</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <figure id="toast-page" class="figure">
+                                <a data-toggle="modal" data-target="#modal-5" class="d-block">
+                                    <img data-src="images/landingpages/toast-lp.jpg" class="figure-img img-thumbnail lazy-load" alt="Toast Landing Page">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>Toast Landing Page</em></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+        </div>            
+    </div>
+</div>
+    
+<!-- Modal -->
+<div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="modal-1-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-1-title">Farmland Homepage</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/landingpages/recipes_homepage_farmland.jpg" class="lazy-load img-fluid" alt="Farmland Homepage">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-2" tabindex="-2" role="dialog" aria-labelledby="modal-2-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-2-title">Farmland Recipe Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/landingpages/recipedetail_farmland.jpg" class="lazy-load img-fluid" alt="Farmland Recipe Page">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-3" tabindex="-3" role="dialog" aria-labelledby="modal-3-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-3-title">UNO Chicago Grill Offer Page | <a href="images/landingpages/uno-page/offer.html" target="_blank" rel="noreferrer noopener">Browser View</a></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/landingpages/uno-landingpage-01.jpg" class="lazy-load img-fluid" alt="UNO Chicago Grill Offer Page">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-4" tabindex="-4" role="dialog" aria-labelledby="modal-4-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-4-title">Pandora Diso Landing Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/landingpages/pandora_lp_disco.jpg" class="lazy-load img-fluid" alt="Jimmy Dean Phone Ad Expanded">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-5" tabindex="-5" role="dialog" aria-labelledby="modal-5-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-5-title">Toast Landing Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/landingpages/toast-lp.jpg" class="lazy-load img-fluid" alt="Jimmy Dean Phone Ad Expanded">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/*-- tag attributes --*/
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+    color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #F15A24;
+}
+a:active {
+	color: #333333;
+	text-decoration: none;
+}
+body {
+	background-color: #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#333333;
+}
+li {
+	font-size: 11px;
+}
+h1 {
+	font-size: 24px;
+	color: #F15A24;
+	font-weight:normal;
+}
+p {
+	font-size: 11px;
+	line-height: 13px;
+}
+/*-- classes --*/
+._italic {
+	font-style: italic;
+}
+._red_text {
+	font-size: 11px;
+	color: #F15A24;
+}
+._logo {
+    margin:24px 45px 24px 24px;	
+}
+._nav-btn {
+	margin:0px 10px;
+}
+._thumb {
+	margin-left:14px;
+	margin-right:13px;
+}
+._v-line {
+	border-right:2px solid #F15A24;
+}
+._h-line {
+	border-bottom:2px solid #F15A24;
+	float:left;
+}
+._descrip {
+	width:229px;
+	float:right;
+	padding-right:10px;
+}
+/*-- div ids --*/
+#site {
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#nav {
+	background-image:url(images/nav_bg.png);
+	width:1024px;
+	height:88px;
+}
+#work-nav {
+	background-color:#ffffff;
+	border:2px solid #F15A24;
+	margin:0px 25px;
+	border-radius:15px;
+	width:970px;
+	height:auto;
+}
+#work-project {
+	background-color:#ffffff;
+	border:2px solid #F15A24;
+	margin:0px 25px;
+	border-radius:15px;
+	width:970px;
+	height:495px;
+}
+#about {
+	background-color:#ffffff;
+	border:2px solid #F15A24;
+	margin:0px 0px 0px 180px;
+	border-radius:15px;
+	width:350px;
+	height:auto;
+	padding:15px;
+	float:left;
+}
+#about2 {
+	background-color:#ffffff;
+	border:2px solid #F15A24;
+	margin:0px 15px 0px 0px;
+	border-radius:15px;
+	width:391px;
+	height:auto;
+	padding:15px;
+	float:right;
+}
+#clients {
+	background-color:#ffffff;
+	border:2px solid #F15A24;
+	margin:0px 0px 0px 300px;
+	border-radius:15px;
+	width:350px;
+	height:auto;
+	padding:15px;
+	float:left;
+}
+#contact {
+	background-color:#ffffff;
+	border:2px solid #F15A24;
+	margin:0px 0px 0px 500px;
+	border-radius:15px;
+	width:350px;
+	height:auto;
+	padding:15px;
+	float:left;
+}

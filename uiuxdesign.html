@@ -1,0 +1,698 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VictoriousNerd.com - Victor Morse Portfolio</title>
+    <meta name="Description" content="Boston, MA based web, UI, and graphic design. A blend of design and technical skills with a decade of experience.">
+    <meta property="og:title" content="VictoriousNerd.com" /> 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://victoriousnerd.com" />
+    <meta property="og:image" content="https://victoriousnerd.com/images/Nerdskull.png" />
+    <meta property="og:description" content="Boston, MA based web,UI, and graphic design. A blend of design and techincal skills with a decade of experience."/>
+        
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://victoriousnerd.com/vmd-fav.ico" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56987905-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'UA-56987905-1');
+    </script>    
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/b0ebd7fa53.js" crossorigin="anonymous"></script>
+    <!-- JQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+    <!-- Lazy Load -->
+    <script src="js/lwcLazyLoader.min.js"></script>
+    <script>
+            $('html').lwcLazyLoad({
+            selector: '.lazy-load',
+            dataSelector: 'data-src',
+            dataLoadedSelector: 'data-src',
+            dataCSSSelector: 'data-src-css',
+            onElementLoad: function(el) {
+            // ...code
+            },
+            onElementLoaded: function(el) {
+            // ...code
+            }
+        });
+    </script>
+</head>
+<body>
+    
+<!-- Nav -->   
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="index.html"><img data-src="images/victoriousnerd-skull.svg" alt="VictoriousNerd skull graphic" class="lazy-load"> VictoriousNerd</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarSpecialties" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Specialities</a>
+                <div class="dropdown-menu" aria-labelledby="navbarSpecialties">
+                    <a class="dropdown-item" href="uiuxdesign.html"><i class="fa-solid fa-desktop"></i>&ensp;UI/UX Design</a>
+                    <a class="dropdown-item" href="websites.html"><i class="fa-solid fa-desktop"></i>&ensp;Websites</a>
+                    <a class="dropdown-item" href="landingpages.html"><i class="fa-solid fa-desktop"></i>&ensp;Landing Pages</a>
+                    <a class="dropdown-item" href="emails.html"><i class="fa-solid fa-desktop"></i>&ensp;Emails</a>
+                    <a class="dropdown-item" href="digitalads.html"><i class="fa-solid fa-desktop"></i>&ensp;Digital Ads</a>
+                    <a class="dropdown-item" href="printads.html"><i class="fa-solid fa-print"></i>&ensp;Print Ads</a>
+                    <a class="dropdown-item" href="documentlayout.html"><i class="fa-solid fa-file"></i>&ensp;Document Layout</a>
+                    <a class="dropdown-item" href="iconsillust.html"><i class="fa-solid fa-pencil-alt"></i>&ensp;Icons &amp; Illust.</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarClientsEmployers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clients &amp; Employers</a>
+                <div class="dropdown-menu" aria-labelledby="navbarClientsEmployers">
+                    <a class="dropdown-item" href="statestreet.html"><i class="fa-solid fa-money-bill-wave"></i>&ensp;State Street</a>
+                    <a class="dropdown-item" href="windtalker.html"><i class="fa-solid fa-shield-alt"></i>&ensp;WindTalker Inc.</a>
+                    <a class="dropdown-item" href="ians.html"><i class="fa-solid fa-shield-alt"></i>&ensp;IANS Research</a>
+                    <a class="dropdown-item" href="ampagency.html"><i class="fa-solid fa-newspaper"></i>&ensp;AMP Agency</a>
+                    <a class="dropdown-item" href="mobilefuse.html"><i class="fa-solid fa-newspaper"></i>&ensp;MobileFuse</a>
+                    <a class="dropdown-item" href="jamhub.html"><i class="fa-solid fa-music"></i>&ensp;JamHub</a>
+                    <a class="dropdown-item" href="lateralgroup.html"><i class="fa-solid fa-money-bill-wave"></i>&ensp;LateralGroup</a>
+                    <a class="dropdown-item" href="carbonite.html"><i class="fa-solid fa-cloud"></i>&ensp;Carbontie</a>
+                    <a class="dropdown-item" href="riso.html"><i class="fa-solid fa-print"></i>&ensp;RISO Inc.</a>
+                    <a class="dropdown-item" href="traherdesign.html"><i class="fa-solid fa-pencil-alt"></i>&ensp;Traher Design</a>
+                </div>    
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarAboutMe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Me</a>
+                <div class="dropdown-menu" aria-labelledby="navbarAboutMe">
+                    <a class="dropdown-item" href="hobbiesinterests.html"><i class="fa-solid fa-heart"></i>&ensp;Hobbies &amp; Interests</a>
+                    <a class="dropdown-item" href="https://github.com/VictoriousNerd" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-github"></i>&ensp;GitHub</a>
+                    <a class="dropdown-item" href="https://www.linkedin.com/in/victormorse/" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-linkedin"></i>&ensp;LinkedIn</a>
+                    <a class="dropdown-item" href="https://profile.indeed.com/p/victorm-fe4aaqs" target="_blank" rel="noreferrer noopener"><i class="fa-solid fa-file"></i>&ensp;Indeed Resume</a>
+                    <a class="dropdown-item" href="https://www.instagram.com/victoriousnerd/" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-instagram-square"></i>&ensp;Instagram</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <h1 class="callout">UI/UX Design</h1>
+            <hr>
+            <p>I started off primarily doing marking, advertising, and branding design. Many of my employers would occasionally ask me to help the UI/UX teams. Over time I would get asked to do this more and more. And even in recent jobs I've been hired as an expected hybrid. A designer that can create a stunning marketing site and a useful app layout.</p>
+            <p>I've found my primary skill of design thinking translates well to a variety of medium. While the goals and behaviors may change, the techniques do not. Good UI/UX design is sort of like telling a story. But you let the user craft the story themselves. This has provided a new and challenging level of design that is both fun and rewarding for me.</p>
+        </div>
+        <div class="col-lg-9">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-statestreet-tab" data-toggle="pill" href="#pills-statestreet" role="tab" aria-controls="pills-statestreet" aria-selected="false">State Street</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-ians-tab" data-toggle="pill" href="#pills-ians" role="tab" aria-controls="pills-ians" aria-selected="true">IANS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-mobilefuse-tab" data-toggle="pill" href="#pills-mobilefuse" role="tab" aria-controls="pills-mobilefuse" aria-selected="false">MobileFuse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-jamhub-tab" data-toggle="pill" href="#pills-jamhub" role="tab" aria-controls="pills-jamhub" aria-selected="false">JamHub</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-statestreet" role="tabpanel" aria-labelledby="pills-statestreet-tab">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <figure id="ss-all-services" class="figure">
+                                <a data-toggle="modal" data-target="#modal-12" class="d-block">
+                                    <img data-src="images/uiuxdesign/state-street-all-services.png" class="figure-img img-thumbnail lazy-load" alt="CX 360 All Services Page">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>CX 360 All Services Page</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-4">
+                            <figure id="ss-accounting" class="figure">
+                                <a data-toggle="modal" data-target="#modal-13" class="d-block">
+                                    <img data-src="images/uiuxdesign/state-street-accounting.png" class="figure-img img-thumbnail lazy-load" alt="CX 360 Accounting Page">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>CX 360 Accounting Page</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-4">
+                            <figure id="ss-timeline" class="figure">
+                                <a data-toggle="modal" data-target="#modal-14" class="d-block">
+                                    <img data-src="images/uiuxdesign/state-street-timeline.png" class="figure-img img-thumbnail lazy-load" alt="CX 360 Timeline View">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>CX 360 Timeline View</em></figcaption>
+                            </figure>
+                        </div>                            
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <figure id="ss-contact-details" class="figure">
+                                <a data-toggle="modal" data-target="#modal-15" class="d-block">
+                                    <img data-src="images/uiuxdesign/state-street-contact-details.png" class="figure-img img-thumbnail lazy-load" alt="CX 360 Contact Details View">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>CX 360 Contact Details View</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-4">
+                            <figure id="ss-wireframe-1" class="figure">
+                                <a data-toggle="modal" data-target="#modal-16" class="d-block">
+                                    <img data-src="images/uiuxdesign/state-street-wireframe-1.png" class="figure-img img-thumbnail lazy-load" alt="CX 360 Wireframe">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>CX 360 Wireframe</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-4">
+                            <figure id="ss-wireframe-2" class="figure">
+                                <a data-toggle="modal" data-target="#modal-17" class="d-block">
+                                    <img data-src="images/uiuxdesign/state-street-wireframe-2.png" class="figure-img img-thumbnail lazy-load" alt="CX 360 Wireframe">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>CX 360 Wireframe</em></figcaption>
+                            </figure>
+                        </div>                            
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-ians" role="tabpanel" aria-labelledby="pills-ians-tab">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <figure id="portal-home" class="figure">
+                                <a data-toggle="modal" data-target="#modal-1" class="d-block">
+                                    <img data-src="images/uiuxdesign/ians-portal-home.png" class="figure-img img-thumbnail lazy-load" alt="IANS Client Portal Homepage">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>IANS Client Portal Homepage</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <figure id="portal-article" class="figure">
+                                <a data-toggle="modal" data-target="#modal-2" class="d-block">
+                                    <img data-src="images/uiuxdesign/ians-portal-article.png" class="figure-img img-thumbnail lazy-load" alt="IANS Client Portal Article Page">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>IANS Client Portal Article Page</em></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <figure id="phone-app-home" class="figure">
+                                <a data-toggle="modal" data-target="#modal-3" class="d-block">
+                                    <img data-src="images/uiuxdesign/ians-app-iphone-s.png" class="figure-img img-thumbnail lazy-load" alt="IANS CVent App">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>IANS CVent App</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <figure id="phone-app-views" class="figure">
+                                <a data-toggle="modal" data-target="#modal-4" class="d-block">
+                                    <img data-src="images/uiuxdesign/ians-event-app.png" class="figure-img img-thumbnail lazy-load" alt="IANS CVent Screens">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>IANS CVent Screens</em></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-mobilefuse" role="tabpanel" aria-labelledby="pills-mobilefuse-tab">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <figure id="mobilefuse-dash" class="figure">
+                                <a data-toggle="modal" data-target="#modal-5" class="d-block">
+                                    <img data-src="images/uiuxdesign/dashboard-redesign-large.png" class="figure-img img-thumbnail lazy-load" alt="MobileFuse Dashboard Redesign">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>MobileFuse Dashboard Redesign</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <figure id="ampagency-dash" class="figure">
+                                <a data-toggle="modal" data-target="#modal-6" class="d-block">
+                                    <img data-src="images/uiuxdesign/amp-dashboard-large.png" class="figure-img img-thumbnail lazy-load" alt="AMP Agency Dashboard">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>AMP Agency Dashboard</em></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-jamhub" role="tabpanel" aria-labelledby="pills-jamhub-tab">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <figure id="tablet-view" class="figure">
+                                <a data-toggle="modal" data-target="#modal-7" class="d-block">
+                                    <img data-src="images/uiuxdesign/tablet-solo.png" class="figure-img img-thumbnail lazy-load" alt="BandLab Beta for Tablet">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>BandLab Beta for Tablet</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <figure id="songs-view" class="figure">
+                                <a data-toggle="modal" data-target="#modal-8" class="d-block">
+                                    <img data-src="images/uiuxdesign/songsview-01.jpg" class="figure-img img-thumbnail lazy-load" alt="Song Management View">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>Song Management View</em></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <figure id="song-editor" class="figure">
+                                <a data-toggle="modal" data-target="#modal-9" class="d-block">
+                                    <img data-src="images/uiuxdesign/editorview-dsktp-01.jpg" class="figure-img img-thumbnail lazy-load" alt="Song Editor View">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>Song Editor View</em></figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <figure id="trackedit-desktop" class="figure">
+                                <a data-toggle="modal" data-target="#modal-10" class="d-block">
+                                    <img data-src="images/uiuxdesign/trackeditor-01.jpg" class="figure-img img-thumbnail lazy-load" alt="Track Editor Tablet/Desktop View">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>Track Editor Tablet/Desktop View</em></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <figure id="trackedit-mobile" class="figure">
+                                <a data-toggle="modal" data-target="#modal-11" class="d-block">
+                                    <img data-src="images/uiuxdesign/bandlab-cell-song_320x568.jpg" class="figure-img img-thumbnail lazy-load" alt="Track Editor Mobile View">
+                                    <div class="middle">
+                                        <div class="text rounded">
+                                            Enlarge
+                                        </div>
+                                    </div>
+                                </a>
+                                <figcaption class="figure-caption"><em>Track Editor Mobile View</em></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+        </div>            
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="modal-1-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-1-title">IANS Client Portal Homepage</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/ians-portal-home.png" class="lazy-load img-fluid" alt="IANS Client Portal Homepage">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-2" tabindex="-2" role="dialog" aria-labelledby="modal-2-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-2-title">IANS Client Portal Article Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/ians-portal-article.png" class="lazy-load img-fluid" alt="IANS Client Portal Article Page">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-3" tabindex="-3" role="dialog" aria-labelledby="modal-3-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-3-title">IANS CVent App</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/ians-app-iphone-s.png" class="lazy-load" alt="IANS CVent App">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-4" tabindex="-4" role="dialog" aria-labelledby="modal-4-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-4-title">IANS CVent Screens</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/ians-event-app.png" class="lazy-load img-fluid" alt="IANS CVent Screens">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-5" tabindex="-5" role="dialog" aria-labelledby="modal-5-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-5-title">MobileFuse Dashboard Redesign</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/dashboard-redesign-large.png" class="lazy-load img-fluid" alt="MobileFuse Dashboard Redesign">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-6" tabindex="-6" role="dialog" aria-labelledby="modal-6-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-6-title">AMP Agency Dashboard</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/amp-dashboard-large.png" class="lazy-load img-fluid" alt="AMP Agency Dashboard">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-7" tabindex="-7" role="dialog" aria-labelledby="modal-7-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-7-title">BandLab Beta for Tablet</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/tablet-solo.png" class="lazy-load img-fluid" alt="BandLab Beta for Tablet">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-8" tabindex="-8" role="dialog" aria-labelledby="modal-8-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-8-title">Song Management View</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/songsview-01.jpg" class="lazy-load img-fluid" alt="Song Management View">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-9" tabindex="-9" role="dialog" aria-labelledby="modal-9-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-9-title">Song Editor View</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/editorview-dsktp-01.jpg" class="lazy-load img-fluid" alt="Song Editor View">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-10" tabindex="-10" role="dialog" aria-labelledby="modal-10-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-10-title">Track Editor Tablet/Desktop View</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/trackeditor-01.jpg" class="lazy-load img-fluid" alt="Track Editor Tablet/Desktop View">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-11" tabindex="-11" role="dialog" aria-labelledby="modal-11-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-11-title">Track Editor Mobile View</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/bandlab-cell-song_320x568.jpg" class="lazy-load img-fluid" alt="Track Editor Mobile View">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>   
+<div class="modal fade" id="modal-12" tabindex="-12" role="dialog" aria-labelledby="modal-12-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-12-title">CX 360 All Services Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/state-street-all-services.png" class="lazy-load img-fluid" alt="CX 360 All Services Page">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-13" tabindex="-13" role="dialog" aria-labelledby="modal-13-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-13-title">CX 360 Accounting Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/state-street-accounting.png" class="lazy-load img-fluid" alt="CX 360 Accounting Page">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-14" tabindex="-14" role="dialog" aria-labelledby="modal-14-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-14-title">CX 360 Timeline View</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/state-street-timeline.png" class="lazy-load img-fluid" alt="CX 360 Timeline View">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-15" tabindex="-15" role="dialog" aria-labelledby="modal-15-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-15-title">CX 360 Contact Details View</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/state-street-contact-details.png" class="lazy-load img-fluid" alt="CX 360 Contact Details View">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-16" tabindex="-16" role="dialog" aria-labelledby="modal-16-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-16-title">CX 360 Wireframe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/state-street-wireframe-1.png" class="lazy-load img-fluid" alt="CX 360 Wireframe">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-17" tabindex="-17" role="dialog" aria-labelledby="modal-17-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-17-title">CX 360 Wireframe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img data-src="images/uiuxdesign/state-street-wireframe-2.png" class="lazy-load img-fluid" alt="CX 360 Wireframe">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+
+</html>
