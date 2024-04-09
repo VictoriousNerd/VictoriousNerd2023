@@ -128,8 +128,11 @@ a:hover {
     .navbar {
         margin-bottom: 1rem;
     }
+    .navbar-brand {
+        margin: 0 auto;
+    }
     .navbar-brand img {
-        margin-left: -10px;
+        margin-left: -20px;
     }
     .navbar-light .navbar-toggler,
     .navbar-light .navbar-toggler.collapsed {
@@ -199,12 +202,6 @@ a:hover {
 }
 #homepage-carousel .carousel-indicators li {
     background-color:#08785C;
-}
-.mobile-homepage {
-    display: none;
-}
-@media screen and (max-width: 500px) {
-
 }
 
 /* == Project Gallery == */
